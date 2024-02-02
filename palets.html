@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Palet Colors</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Descubra e Explore Cores</h1>
+
+        <div class="color-picker">
+            <label for="color-input">Digite a cor (Hex): </label>
+            <input type="text" id="color-input" placeholder="Digite a cor Hex" />
+            <button class="btn" onclick="mostrarCor()">Mostrar Cor</button>
+            <button class="btn" onclick="atualizarPaleta()">Atualizar Paleta</button>
+            <div id="cor-demonstracao"></div>
+        </div>
+
+        <div class="paleta" id="paleta">
+            
+            <!-- As cores serão adicionadas dinamicamente aqui -->
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
